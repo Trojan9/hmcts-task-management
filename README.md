@@ -329,7 +329,7 @@ npm run build
 
 2. **Set environment variables:**
 ```bash
-VITE_API_URL=https://your-api-domain.com
+VITE_API_URL=http://localhost:3001
 ```
 
 3. **Deploy the `dist/` folder** to your hosting provider
