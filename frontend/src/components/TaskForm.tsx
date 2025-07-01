@@ -79,7 +79,7 @@ const TaskForm: React.FC = () => {
     };
 
     if (isEditing) {
-      updateMutation.mutate(data);
+      updateMutation.mutate(taskData);
     } else {
       createMutation.mutate(taskData);
     }
